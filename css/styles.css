@@ -570,6 +570,11 @@ h3 {
   font-weight: 500;
   line-height: 1.02;
 }
+@media (min-width: 921px) {
+  .hero__title {
+    white-space: wrap;
+  }
+}
 .hero__title .line {
   display: block;
 }
