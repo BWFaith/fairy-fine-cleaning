@@ -310,12 +310,25 @@ h3 {
     padding 0.4s,
     box-shadow 0.4s;
 }
-.site-header.is-solid {
+/* The blur lives on a pseudo-element so it does not trap the fixed mobile menu */
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: rgba(18, 11, 16, 0.94);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  padding: 8px 0;
   box-shadow: 0 1px 0 var(--line);
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+}
+.site-header.is-solid {
+  padding: 8px 0;
+}
+.site-header.is-solid::before {
+  opacity: 1;
 }
 .nav-wrap {
   display: flex;
@@ -835,7 +848,16 @@ h3 {
   .float-card--b {
     right: -14%;
   }
+  .hero__title {
+    text-align: center;
+  }
+  .hero__title .line {
+    display: block;
+  }
   .rotator {
+    display: block;
+    width: 100%;
+    min-width: 0 !important;
     text-align: center;
   }
   .rotator__word {
