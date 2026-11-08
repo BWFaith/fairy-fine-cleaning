@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>
+      Before & After Gallery | Fairy Fine Cleaning
+    </title>
+    <meta
+      name="description"
+      content="See real before and after photos of Fairy Fine Cleaning's work. Drag the slider to compare bathrooms, kitchens, floors and more."
+    />
+    <meta
+      name="theme-color"
+      content="#120b10"
+    />
+    <meta
+      property="og:title"
+      content="Before & After Gallery | Fairy Fine Cleaning"
+    />
+    <meta
+      property="og:description"
+      content="See real before and after photos of Fairy Fine Cleaning's work. Drag the slider to compare bathrooms, kitchens, floors and more."
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <meta
+      property="og:image"
+      content="assets/images/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/styles.css"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body class="page-gallery">
+    <a
+      class="skip"
+      href="#main"
+      >Skip to content</a
+    >
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Fairy Fine Cleaning — home"
+          ><img
+            src="assets/images/logo.png"
+            alt="Fairy Fine Cleaning logo"
+            width="68"
+            height="71"
+        /></a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav
+          class="nav"
+          id="site-nav"
+          aria-label="Main"
+        >
+          <ul class="nav__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li>
+              <a
+                href="gallery.html"
+                aria-current="page"
+                >Gallery</a
+              >
+            </li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="has-sub">
+              <button
+                class="nav__more-btn"
+                type="button"
+                aria-haspopup="true"
+              >
+                More
+                <svg
+                  class="ico"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+              <ul class="submenu">
+                <li>
+                  <a href="process.html">How It Works</a>
+                </li>
+                <li>
+                  <a href="areas.html">Service Areas</a>
+                </li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a
+            class="btn btn--gold btn--sm"
+            href="book-quote.html"
+            >Book &amp; Get a Quote</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <canvas
+          class="sparkles"
+          aria-hidden="true"
+        ></canvas>
+        <div class="container">
+          <nav
+            class="crumbs"
+            aria-label="Breadcrumb"
+          >
+            <span>Before &amp; After Gallery</span>
+          </nav>
+          <h1>Before &amp; After Gallery</h1>
+          <p>
+            Drag the slider on any photo to see the
+            transformation. Real spaces, real results.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--ivory">
+        <div class="container">
+          <div
+            class="filters"
+            role="group"
+            aria-label="Filter gallery"
+          >
+            <button
+              class="filter"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              All
+            </button>
+            <button
+              class="filter"
+              data-filter="bathrooms"
+              aria-pressed="false"
+            >
+              Bathrooms
+            </button>
+            <button
+              class="filter"
+              data-filter="kitchens"
+              aria-pressed="false"
+            >
+              Kitchens
+            </button>
+            <button
+              class="filter"
+              data-filter="living"
+              aria-pressed="false"
+            >
+              Living spaces
+            </button>
+            <button
+              class="filter"
+              data-filter="moveout"
+              aria-pressed="false"
+            >
+              Move-out
+            </button>
+            <button
+              class="filter"
+              data-filter="deep"
+              aria-pressed="false"
+            >
+              Deep clean
+            </button>
+            <button
+              class="filter"
+              data-filter="offices"
+              aria-pressed="false"
+            >
+              Offices
+            </button>
+          </div>
+          <!-- TO ADD YOUR OWN PHOTOS: put your images in assets/images/gallery/ and change the file names below.
+         Each figure = one before/after pair. Use the same photo size/angle for best results (4:5 portrait works best). -->
+          <div class="grid grid--3">
+            <figure
+              class="ba"
+              data-ba
+              data-cat="bathrooms"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/bathroom-after.jpg"
+                  alt="Bathroom vanity after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/bathroom-before.jpg"
+                  alt="Bathroom vanity before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Bathroom vanity"
+                />
+              </div>
+              <figcaption>
+                <b>Bathroom vanity</b
+                ><span
+                  >Counters, mirrors and fixtures
+                  detailed.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="bathrooms"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/toilet-after.jpg"
+                  alt="Toilet after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/toilet-before.jpg"
+                  alt="Toilet before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Bathroom deep clean"
+                />
+              </div>
+              <figcaption>
+                <b>Bathroom deep clean</b
+                ><span
+                  >Stains, buildup and hair removed.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="kitchens"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/sink-after.jpg"
+                  alt="Stainless steel sink after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/sink-before.jpg"
+                  alt="Stainless steel sink before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Stainless kitchen sink"
+                />
+              </div>
+              <figcaption>
+                <b>Stainless kitchen sink</b
+                ><span
+                  >Water marks and scuffs polished
+                  away.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="kitchens"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/placeholder-kitchen-after.svg"
+                  alt="Kitchen after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/placeholder-kitchen-before.svg"
+                  alt="Kitchen before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Kitchen counters (placeholder)"
+                />
+              </div>
+              <figcaption>
+                <b>Kitchen counters (placeholder)</b
+                ><span
+                  >Replace with your own kitchen
+                  photos.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="living"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/placeholder-living-after.svg"
+                  alt="Living room after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/placeholder-living-before.svg"
+                  alt="Living room before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Living room (placeholder)"
+                />
+              </div>
+              <figcaption>
+                <b>Living room (placeholder)</b
+                ><span
+                  >Replace with your own living area
+                  photos.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="moveout"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/placeholder-moveout-after.svg"
+                  alt="Empty home after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/placeholder-moveout-before.svg"
+                  alt="Empty home before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Move-out clean (placeholder)"
+                />
+              </div>
+              <figcaption>
+                <b>Move-out clean (placeholder)</b
+                ><span
+                  >Replace with your own move-out
+                  photos.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="deep"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/placeholder-deep-after.svg"
+                  alt="Detail after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/placeholder-deep-before.svg"
+                  alt="Detail before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Deep clean detail (placeholder)"
+                />
+              </div>
+              <figcaption>
+                <b>Deep clean detail (placeholder)</b
+                ><span
+                  >Replace with your own deep clean
+                  photos.</span
+                >
+              </figcaption>
+            </figure>
+            <figure
+              class="ba"
+              data-ba
+              data-cat="offices"
+            >
+              <div class="ba__frame">
+                <img
+                  class="ba__after"
+                  src="assets/images/gallery/placeholder-office-after.svg"
+                  alt="Office after cleaning"
+                  loading="lazy"
+                />
+                <img
+                  class="ba__before"
+                  src="assets/images/gallery/placeholder-office-before.svg"
+                  alt="Office before cleaning"
+                  loading="lazy"
+                />
+                <span class="ba__tag ba__tag--before"
+                  >Before</span
+                ><span class="ba__tag ba__tag--after"
+                  >After</span
+                >
+                <div class="ba__handle"></div>
+                <input
+                  class="ba__range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Drag to compare before and after: Office space (placeholder)"
+                />
+              </div>
+              <figcaption>
+                <b>Office space (placeholder)</b
+                ><span
+                  >Replace with your own office
+                  photos.</span
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--blush">
+        <div class="container">
+          <div
+            class="section__head section__head--center"
+            data-reveal
+          >
+            <h2>Finished spaces</h2>
+            <p class="lead">
+              A few more moments from our work and our team.
+              Tap a photo to enlarge it.
+            </p>
+            <div class="flourish">
+              <svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"
+                />
+                <path
+                  d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7L19 16z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="photo-grid"
+            data-reveal
+          >
+            <a
+              href="assets/images/team-grid.jpg"
+              data-lightbox
+              data-alt="The Fairy Fine team at work: glass, cart, baseboards and decor"
+              ><img
+                src="assets/images/team-grid.jpg"
+                alt="The Fairy Fine team at work"
+                loading="lazy"
+            /></a>
+            <a
+              href="assets/images/finished-floor.jpg"
+              data-lightbox
+              data-alt="Freshly cleaned hardwood-style floors"
+              ><img
+                src="assets/images/finished-floor.jpg"
+                alt="Freshly cleaned floors in an empty bedroom"
+                loading="lazy"
+            /></a>
+            <a
+              href="assets/images/fairre3.jpg"
+              data-lightbox
+              data-alt="Walking the polished office corridor"
+              ><img
+                src="assets/images/fairre3.jpg"
+                alt="Founder in a polished office corridor"
+                loading="lazy"
+            /></a>
+            <a
+              href="assets/images/fairre.jpg"
+              data-lightbox
+              data-alt="Ready to make it shine"
+              ><img
+                src="assets/images/fairre.jpg"
+                alt="Founder with spray bottle and microfiber cloth"
+                loading="lazy"
+            /></a>
+            <a
+              href="assets/images/fairye.jpg"
+              data-lightbox
+              data-alt="Planning your clean with a detailed schedule"
+              ><img
+                src="assets/images/fairye.jpg"
+                alt="Founder holding a cleaning schedule"
+                loading="lazy"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="lightbox"
+        id="lightbox"
+        hidden
+        role="dialog"
+        aria-modal="true"
+        aria-label="Photo viewer"
+      >
+        <button
+          class="lightbox__close"
+          aria-label="Close"
+        >
+          ×
+        </button>
+        <button
+          class="lightbox__prev"
+          aria-label="Previous photo"
+        >
+          ‹
+        </button>
+        <figure>
+          <img
+            src=""
+            alt=""
+          />
+          <figcaption></figcaption>
+        </figure>
+        <button
+          class="lightbox__next"
+          aria-label="Next photo"
+        >
+          ›
+        </button>
+      </div>
+
+      <section
+        class="section section--dark section--glow cta-band"
+      >
+        <div
+          class="container"
+          style="position: relative"
+          data-reveal
+        >
+          <h2>Want results like these?</h2>
+          <p>
+            Get your instant quote and choose a date that
+            works for you.
+          </p>
+          <div class="row-btns">
+            <a
+              class="btn btn--gold"
+              href="book-quote.html"
+              >Book &amp; get a quote
+              <svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" /></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img
+            src="assets/images/logo.png"
+            alt="Fairy Fine Cleaning"
+            loading="lazy"
+          />
+          <p>
+            Luxury-quality cleaning at budget-friendly
+            prices for homes, apartments and offices in
+            Myrtle Beach and surrounding communities.
+          </p>
+          <div class="social">
+            <a
+              href="https://www.facebook.com/"
+              aria-label="Fairy Fine Cleaning on Facebook"
+              target="_blank"
+              rel="noopener"
+              ><svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M14 9h3V5h-3a4 4 0 00-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9z"
+                /></svg></a
+            ><a
+              href="mailto:fairyfinecleaning@gmail.com"
+              aria-label="Email us"
+              ><svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect
+                  x="3"
+                  y="5"
+                  width="18"
+                  height="14"
+                  rx="2"
+                />
+                <path d="M3 7l9 6 9-6" /></svg></a
+            ><a
+              href="tel:+18436533830"
+              aria-label="Call us"
+              ><svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li>
+              <a href="gallery.html"
+                >Before &amp; After Gallery</a
+              >
+            </li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="process.html">How It Works</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="areas.html">Service Areas</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li>
+              <a href="services.html#regular"
+                >Regular Cleaning</a
+              >
+            </li>
+            <li>
+              <a href="services.html#deep">Deep Cleaning</a>
+            </li>
+            <li>
+              <a href="services.html#move"
+                >Move In / Move Out</a
+              >
+            </li>
+            <li>
+              <a href="services.html#onetime"
+                >One-Time Cleans</a
+              >
+            </li>
+            <li>
+              <a href="services.html#office"
+                >Office Cleaning</a
+              >
+            </li>
+            <li>
+              <a href="book-quote.html"
+                >Get an Instant Quote</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"
+                /></svg
+              ><a href="tel:+18436533830">(843) 653-3830</a>
+            </li>
+            <li>
+              <svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect
+                  x="3"
+                  y="5"
+                  width="18"
+                  height="14"
+                  rx="2"
+                />
+                <path d="M3 7l9 6 9-6" /></svg
+              ><a href="mailto:fairyfinecleaning@gmail.com"
+                >fairyfinecleaning@gmail.com</a
+              >
+            </li>
+            <li>
+              <svg
+                class="ico"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"
+                />
+                <circle
+                  cx="12"
+                  cy="10"
+                  r="2.5"
+                /></svg
+              ><span
+                >Myrtle Beach, SC<br />and surrounding
+                communities</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span data-year>2026</span> Fairy Fine
+          Cleaning. All rights reserved.</span
+        ><span>More than clean… it’s a little magic.</span>
+      </div>
+    </footer>
+    <div class="mobile-cta">
+      <a
+        class="m-call"
+        href="tel:+18436533830"
+        >Call us</a
+      ><a
+        class="m-book"
+        href="book-quote.html"
+        >Get a quote</a
+      >
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
